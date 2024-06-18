@@ -1,0 +1,22 @@
+{
+  "name": "background-generetor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify main.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/db1830/background-generetor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/db1830/background-generetor/issues"
+  },
+  "homepage": "https://github.com/db1830/background-generetor#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
